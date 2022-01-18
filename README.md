@@ -67,7 +67,7 @@ we used google colab to run our yolov5 model to run it with gpu
 ## Usage
 
 * we can use this project to detect the presence of garbage inside our oceans like plastic bags.
-* [google colab](https://colab.research.google.com/drive/1Ymz1JBISuL9pDHKpD70IQahm-WxIltkn) will be helpful to run the project 
+* [google colab](https://colab.research.google.com/drive/15VSNbbOcIikd3VB2pJlk99Rnx5b9qVdC#scrollTo=zS1y_gmZ6BSF) will be helpful to run the project 
 
 
 <img src="output images/plastic-bag1.jpg" alt="underwater waste detection image" width="800" height="800"/>   <img src="output images/plastic-bag.jpg" alt="underwater waste detection image" width="400" height="400"/> <img src="output images/plastic-cup.jpg" alt="underwater waste detection image" width="400" height="400"/>
