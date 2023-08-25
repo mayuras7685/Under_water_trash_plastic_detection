@@ -79,8 +79,9 @@ To run the project, consider Google Colab.
 
 <div align="center">
   <img src="output images/plastic-bag1.jpg" alt="Underwater waste detection image" width="400" height="400"/>
-  <img src="output images/plastic-bag.jpg" alt="Underwater waste detection image" width="400" height="400"/>
   <img src="output images/plastic-cup.jpg" alt="Underwater waste detection image" width="400" height="400"/>
+  <img src="output images/plastic_bottle.jpg.jpg" alt="Underwater waste detection image" width="200" height="200"/>
+  <img src="output images/metal_can.jpg.jpg" alt="Underwater waste detection image" width="200" height="200"/>
 </div>
 
 <!-- LICENSE -->
