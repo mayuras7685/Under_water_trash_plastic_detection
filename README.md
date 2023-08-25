@@ -16,8 +16,8 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#output">Output</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -74,14 +74,19 @@ We utilized Google Colab with GPU support to run our YOLOv5 model.
 <!-- USAGE EXAMPLES -->
 ## 🎯 Usage
 This project serves to detect underwater garbage, including items like plastic bags. It can contribute to ocean cleanup efforts and environmental monitoring.
-
 To run the project, consider Google Colab.
 
+<!-- OUTPUT -->
+## 📊 Output
+The images above depict the output of our underwater trash plastic detection models. The model successfully identifies and outlines plastic waste items, such as plastic bags, cups, metal_can  and cups, contributing to efforts to clean up our oceans.
+
 <div align="center">
-  <img src="output images/plastic-bag1.jpg" alt="Underwater waste detection image" width="400" height="400"/>
-  <img src="output images/plastic-cup.jpg" alt="Underwater waste detection image" width="400" height="400"/>
-  <img src="output images/plastic_bottle.jpg.jpg" alt="Underwater waste detection image" width="200" height="200"/>
-  <img src="output images/metal_can.jpg.jpg" alt="Underwater waste detection image" width="200" height="200"/>
+  <img src="output images/plastic-bag1.jpg" alt="Underwater waste detection image" width="300" height="300"/>
+  <img src="output images/plastic-cup.jpg" alt="Underwater waste detection image" width="300" height="300"/>
+  <img src="output images/plastic-bag.jpg" alt="Underwater waste detection image" width="300" height="300"/>
+  <img src="output images/plastic_bottle.jpg" alt="Underwater waste detection image" width="300" height="300"/>
+  <img src="output images/metal_can.jpg" alt="Underwater waste detection image" width="300" height="300"/>
+  <img src="output images/plant.jpg" alt="Underwater waste detection image" width="300" height="300"/>
 </div>
 
 <!-- LICENSE -->
