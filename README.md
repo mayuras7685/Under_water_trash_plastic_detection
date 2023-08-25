@@ -1,17 +1,15 @@
-# under-water-trash-plastic-detection
+# 🌊 Underwater Trash Plastic Detection 🛢️
 
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
+    <li><a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
+    <li><a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
@@ -24,70 +22,71 @@
   </ol>
 </details>
 
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## 🌟 About The Project
 
-we built a under water trash plastic detection project with the use of yolov5 by using our custom dataset
+We have developed an underwater trash plastic detection project using YOLOv5 and YOLOv8 by training custom datasets. This project includes two models: one based on YOLOv5 for object detection and another using YOLOv8 for instance segmentation.
 
 ### Built With
 
-* yolov5
-
+* YOLOv5
+* YOLOv8
 
 <!-- GETTING STARTED -->
-## Getting Started
+## 🚀 Getting Started
 
-we used google colab to run our yolov5 model to run it with gpu
+We utilized Google Colab with GPU support to run our YOLOv5 model.
 
 ### Prerequisites
 
-* python
+* Python
 
-### Installation
+### Installation for YOLOv5 object detection
 
-1. Clone the repo
+1. Clone the repository
    ```sh
-   git clone https://github.com/ultralytics/yolov5.git
+   !git clone https://github.com/ultralytics/yolov5.git
    ```
-2. Install required dependensies
+2. Install required dependencies
    ```sh
-   pip install -r requirements.txt
+   !pip install -r requirements.txt
    ```
-3. Enter this command to detect the vehicle images
-   ```js
+3. Run the YOLOv5 object detection model
+   ```sh
    !python detect.py --weights bestpla.pt --source path/to/folder/orImage
    ```
+### Installation for YOLOv8 instance segmentation
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
+1. Install ultralytics
+   ```sh
+   !pip install ultralytics
+   ```
+2. Install required dependencies
+   ```sh
+   !pip install -r requirements.txt
+   ```
+3. Run the YOLOv5 object detection model
+   ```sh
+   !yolo predict model='runs/segment/yolov8n-seg/weights/best.pt' source='detection source file' name='folder_name'
+   ```
+   
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## 🎯 Usage
+This project serves to detect underwater garbage, including items like plastic bags. It can contribute to ocean cleanup efforts and environmental monitoring.
 
-* we can use this project to detect the presence of garbage inside our oceans like plastic bags.
-* [google colab](https://colab.research.google.com/drive/15VSNbbOcIikd3VB2pJlk99Rnx5b9qVdC#scrollTo=zS1y_gmZ6BSF) will be helpful to run the project 
+To run the project, consider Google Colab.
 
-
-<img src="output images/plastic-bag1.jpg" alt="underwater waste detection image" width="800" height="800"/>   <img src="output images/plastic-bag.jpg" alt="underwater waste detection image" width="400" height="400"/> <img src="output images/plastic-cup.jpg" alt="underwater waste detection image" width="400" height="400"/>
+<div align="center">
+  <img src="output images/plastic-bag1.jpg" alt="Underwater waste detection image" width="400" height="400"/>
+  <img src="output images/plastic-bag.jpg" alt="Underwater waste detection image" width="400" height="400"/>
+  <img src="output images/plastic-cup.jpg" alt="Underwater waste detection image" width="400" height="400"/>
+</div>
 
 <!-- LICENSE -->
-## License
-
+## 📜 License
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-<!-- CONTACT -->
-## Contact
-
-* Mayur Asodara - [linkedIn profile](https://www.linkedin.com/in/mayur-asodara-366067206), email_id - mayurasodara@gmail.com
-
-Project Link: [https://github.com/mayuras7685/Under-water-trash-plastic-detection.git](https://github.com/mayuras7685/Under-water-trash-plastic-detection.git)
-
-
-
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [Ultralytics/yolov5](https://github.com/ultralytics/yolov5)
-
+## 🙏 Acknowledgments
+Thanks to [Ultralytics](https://github.com/ultralytics) for their awesome framework!
